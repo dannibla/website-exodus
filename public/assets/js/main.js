@@ -9556,11 +9556,11 @@ window.addEventListener("load", function() {
     removeClass(document.querySelector("main"), "hidden"),
     removeClass(document.body, "loading"),
     null !== document.querySelector(".rellax") && (window.rellax = new Rellax(".rellax")),
-   // scrollEffect()
-	document.getElementById("hp_holder").setAttribute("class", "step0")
+    scrollEffect()
+//	document.getElementById("hp_holder").setAttribute("class", "step0")
 });
-
+/*
 document.getElementById("hp_holder").addEventListener("click",function(e){
    scrollEffect();
 },false);
-
+*/
