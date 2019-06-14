@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="stylesheet" href="https://audiotheque.be/assets/css/main.css?v=1.0.30">
+	<style>.logo-image{background-image: url(./assets/images/logo-black.png);background-color: transparent;padding: 50px 80px;background-size: 120px auto;background-position: center;background-repeat: no-repeat;position: relative;}body.darkNav .logo-image{background-image: url(./assets/images/logo-black.png);}#hp_holder .hp_content .hp_circle {background-color: #b2b2b2;}#hp_holder a:not(.hp_hover) .btn.btn-white {
+    border-color: #000;
+    color: #000;
+} #hp_holder .hp_content .hp_text h2 {
+    color: #000;
+}
+</style>
+</head>
+<body class="loading <%=body%>">
+	<img src="https://audiotheque.be/assets/images/preloaders/preloader-white.gif" class="loader"> 
+      <header>
+         <h1>
+            <a href="<%=base%>">
+               <div class="logo-image"></div>
+               <span style="width: 200px;text-align: right;">MUSIC MINISTRIES</span> 
+            </a>
+         </h1>
+         <nav>
+            <svg id="close-menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.16 26.16">
+               <path fill="#FFF" d="M26.16 2.12L24.04 0 13.08 10.96 2.12 0 0 2.12l10.96 10.96L0 24.04l2.12 2.12L13.08 15.2l10.96 10.96 2.12-2.12L15.2 13.08"/>
+            </svg>
+            <div class="menu">
+               <a href="<%=base%>gallery"> <span>Gallery</span> </a> <a href="<%=base%>music"> <span>Music</span> </a> 
+               <ul class="menu__main">
+                  <li> <a href="<%=base%>"> Home </a> </li>
+                  <li> <a href="<%=base%>about"> About </a> </li>
+                  <li> <a href="<%=base%>contact"> Contact </a> </li>
+               </ul>
+               <em>Follow us</em> 
+               <ul class="social">
+                  <li>
+                     <a href="https://www.facebook.com/Audiothequeproductions" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28">
+                           <path fill="#FFF" d="M26.5 0h-25C.67 0 0 .67 0 1.5v25c0 .83.67 1.5 1.5 1.5H15V17.2h-3.7v-4.3H15v-3c0-3.7 2.2-5.7 5.4-5.7 1.1.01 2.2.07 3.3.2v3.8h-2.3c-1.7 0-2 .8-2 2v2.7h4.1l-.5 4.3h-3.7V28h7.2c.83 0 1.5-.67 1.5-1.5v-25c0-.83-.67-1.5-1.5-1.5z"/>
+                        </svg>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://vimeo.com/audiothequebelgium" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 31">
+                           <path fill="#FFF" d="M35.82 5.77c.27-1.5.26-3.05-.67-4.22-1.3-1.64-4.06-1.7-5.95-1.41-1.54.24-6.74 2.53-8.51 8.03 3.14-.24 4.78.23 4.48 3.68-.13 1.45-.87 3.03-1.67 4.55-.94 1.74-2.71 5.19-5.02 2.71-2.08-2.23-1.93-6.49-2.41-9.33-.26-1.59-.55-3.58-1.07-5.23-.45-1.4-1.48-3.09-2.74-3.47-1.36-.4-3.03.22-4.01.8C5.12 3.72 2.74 6.34.03 8.5v.21c.54.5.68 1.34 1.47 1.45 1.86.28 3.64-1.74 4.88.36.75 1.28.99 2.68 1.47 4.06.64 1.84 1.14 3.84 1.67 5.95.89 3.58 1.99 8.92 5.08 10.23 1.58.67 3.95-.23 5.15-.94 3.25-1.92 5.79-4.71 7.96-7.55 4.96-6.72 7.7-14.32 8.11-16.5z"/>
+                        </svg>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://www.instagram.com/audiotheque.be/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28">
+                           <path fill="#FFF" d="M14 2.55l5.6.1c.89.01 1.77.18 2.6.5.66.15 1.28.46 1.8.9.45.45.79 1 1 1.6.31.83.48 1.71.5 2.6.22 3.8.22 7.6 0 11.4-.01.89-.18 1.77-.5 2.6-.21.6-.55 1.15-1 1.6-.45.45-1 .79-1.6 1-.86.33-1.78.49-2.7.5-3.76.22-7.54.22-11.3 0-.89-.01-1.77-.18-2.6-.5-.6-.21-1.15-.55-1.6-1-.45-.45-.79-1-1-1.6-.31-.83-.48-1.71-.5-2.6-.22-3.8-.22-7.6 0-11.4.01-.89.18-1.77.5-2.6.21-.6.55-1.15 1-1.6.45-.45 1-.79 1.6-1 .83-.31 1.71-.48 2.6-.5H14m0-2.5H8.2c-1.16.04-2.31.28-3.4.7-.91.36-1.72.9-2.4 1.6-.74.7-1.32 1.55-1.7 2.5C.31 5.94.11 7.09.1 8.25l-.1 5.8v5.8c.04 1.16.28 2.31.7 3.4.36.91.9 1.72 1.6 2.4.7.74 1.55 1.32 2.5 1.7 1.09.39 2.24.59 3.4.6h11.6c1.16-.01 2.31-.21 3.4-.6.91-.38 1.73-.97 2.4-1.7.73-.67 1.31-1.49 1.7-2.4.39-1.09.59-2.24.6-3.4l.1-5.8v-5.8c-.04-1.16-.28-2.31-.7-3.4-.37-.95-.95-1.8-1.7-2.5-.65-.68-1.43-1.23-2.3-1.6-1.09-.39-2.24-.59-3.4-.6L14 .05z"/>
+                           <path fill="#FFF" d="M14 6.85c-3.98 0-7.2 3.22-7.2 7.2s3.22 7.2 7.2 7.2 7.2-3.22 7.2-7.2-3.22-7.2-7.2-7.2zm0 11.9c-2.6 0-4.7-2.1-4.7-4.7s2.1-4.7 4.7-4.7 4.7 2.1 4.7 4.7-2.1 4.7-4.7 4.7z"/>
+                           <circle fill="#FFF" cx="21.5" cy="6.55" r="1.7"/>
+                        </svg>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+         <div id="open-menu">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 21">
+               <rect fill="#fff" width="34" height="3"/>
+               <rect fill="#fff" y="9" width="34" height="3"/>
+               <rect fill="#fff" y="18" width="34" height="3"/>
+            </svg>
+         </div>
+      </header> 
+	<%- include(page) %>   
+      <div id="overlay">
+         <iframe id="overlayIframe" width="100%" height="100%" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe> 
+         <div id="overlayClose"></div>
+      </div>
+      <div class="volume">
+         <div id="volume--knob" class="volume__knob">
+            <div class="volume__knob__line"></div>
+            <div class="volume__knob__knob js-volume-knob"></div>
+         </div>
+         <input type="range" class="volume__slider form-control-range" id="volume--master" val="80" min="0" max="100" step="1"> 
+      </div>
+      <div class="body-background js-body-background"></div>  
+	<script src="./assets/js/main.js" charset="utf-8"></script> 	  
+	</body>
+</html>
